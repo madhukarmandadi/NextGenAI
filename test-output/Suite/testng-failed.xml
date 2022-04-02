@@ -7,7 +7,7 @@
         <methods>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
-          <include name="logoutTest"/>
+          <include name="logoutTest" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- com.tmb.testcases.OrangeHRMTest -->
     </classes>
