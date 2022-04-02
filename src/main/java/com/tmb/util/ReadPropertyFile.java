@@ -17,7 +17,7 @@ public class ReadPropertyFile {
 		FileInputStream fis=new FileInputStream(file);
 		property.load(fis);
 		value=property.getProperty(key);
-
+		System.out.println("value:"+value);
 
 		if(Objects.isNull(property.getProperty(key)) || Objects.isNull(key)) {
 
